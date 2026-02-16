@@ -734,7 +734,7 @@ const AIAnalysisSection: React.FC<{ customers: Customer[] }> = ({ customers }) =
                 model: 'gemini-3-flash-preview',
                 contents: prompt,
             });
-            setAnalysisResult(response.text);
+            setAnalysisResult(response.text || '');
         } catch (e) {
             console.error("AI Analysis Error:", e);
             setError("Sorry, an error occurred while generating the analysis. Please check your API key and try again.");
