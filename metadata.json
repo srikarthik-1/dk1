@@ -1,0 +1,5 @@
+{
+  "name": "PayLoop",
+  "description": "A React-based preview of PayLoop, showcasing customer management, transaction processing, and advanced analytics with a sleek, modern interface.",
+  "requestFramePermissions": []
+}
